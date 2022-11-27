@@ -1,0 +1,117 @@
+
+
+.box {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ededf2;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 4px 8px 16px #fbf6f6 ;
+    min-height: 50%;
+    min-width: 50%;  
+    max-width: 900px;
+    max-height: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div {
+    height: 100px;
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #6c788e;
+    box-shadow: 5px 5px 15px #000000b3;
+    border: 7px;
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 30px;
+
+
+}
+.relogio span.tempo{
+    font-size: 10px;
+
+}
+h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 24px;
+}
+
+fieldset {
+    border: 3px solid #6c788e;
+    border-radius: 4;
+    
+}
+
+legend{
+    border: 1px solid #8ab3cf;
+    padding: 10px;
+    text-align: center;
+    background-color: #8ab3cf;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 18px;
+}
+
+#button1 {
+    background-color: #65B9EB;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 1S;
+}
+
+h3{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#button2 {
+    background-color: #f67704;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 1S;
+}
+
+#button1:hover{
+    background-color: #009df8;
+
+}
+
+#button2:hover{
+    background-color: #f5c496;
+
+}
