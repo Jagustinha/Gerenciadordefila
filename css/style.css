@@ -19,28 +19,14 @@
 #foguete {
     width: 48px;
     left: 90%;
-    top: -5%;
+    top: 10%;
     position: absolute;
     width: 100px;
     max-width: 900px;
     max-height: 900px;
 }
 
-@keyframes loading {
 
-    
-}
-
-#meteoro {
-    width: 48px;
-    left: -4%;
-    top: 88%;
-    position: absolute;
-    width: 120px;
-    max-width: 900px;
-    max-height: 900px;
-    transform: rotate(10deg);
-}
 
 fieldset {
     border: 50% solid #3e240d;
