@@ -55,7 +55,7 @@ legend{
     height: 200px;
     width: 550px;
     background: transparent;
-    border-radius: 3px;
+    border-radius: 10px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
