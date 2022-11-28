@@ -1,7 +1,7 @@
 
 
 .box {
-    color: #000000;
+    color: #ffffff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,20 +16,51 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-fieldset {
-    border: 20px solid #000000;
-    border-radius: 20px;
+#foguete {
+    width: 48px;
+    left: 90%;
+    top: -5%;
+    position: absolute;
+    width: 100px;
+    max-width: 900px;
+    max-height: 900px;
 }
 
-legend{
-    border: 1px solid #8ab3cf;
-    padding: 200px;
-    text-align: center;
-    background-color: #8ab3cf;
-    border-radius: 10px;
-    color: #000000;
-    font-size: 18px;
+@keyframes loading {
+
+    
 }
+
+#meteoro {
+    width: 48px;
+    left: -4%;
+    top: 88%;
+    position: absolute;
+    width: 120px;
+    max-width: 900px;
+    max-height: 900px;
+    transform: rotate(10deg);
+}
+
+fieldset {
+    border: 50% solid #3e240d;
+    border-radius: 20px;
+    
+}
+
+
+
+legend{
+    border: 5px solid #271338;
+    width: 50%;
+    text-align: center;
+    background-color: #271338;
+    border-radius: 10px;
+    color: #f6f2f2;
+    font-size: 18px;
+    
+}
+
 
 .relogio{
     display: flex;
@@ -50,7 +81,7 @@ legend{
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: #6c788e;
+    background: #271338;
     box-shadow: 5px 5px 15px #000000b3;
     border: 7px;
     border-radius: 7px;
@@ -71,14 +102,17 @@ h2 {
     color: #000000;
     text-align: center;
     font-size: 24px;
+   
 }
 
+
+
 #button1 {
-    background-color: #65B9EB;
+    background-color: #4c2a64;
     width: 100%;
     border: none;
     padding: 15px;
-    color: #000000;
+    color: #ffffff;
     font-size: 15px;
     cursor: pointer;
     border-radius: 12px;
@@ -88,15 +122,16 @@ h2 {
 h3{
     text-align: center;
     font-size: 18px;
+    color: #000000;
 
 }
 
 #button2 {
-    background-color: #f67704;
+    background-color: #a84b94;
     width: 100%;
     border: none;
     padding: 15px;
-    color: #000000;
+    color: #ffffff;
     font-size: 15px;
     cursor: pointer;
     border-radius: 12px;
@@ -104,11 +139,12 @@ h3{
 }
 
 #button1:hover{
-    background-color: #009df8;
+    background-color: #68368b;
 
 }
 
 #button2:hover{
-    background-color: #f5c496;
+    background-color: #9050be;
 
 }
+
