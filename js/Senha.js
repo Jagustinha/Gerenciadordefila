@@ -9,8 +9,8 @@ function clickComum() {
     }
   }
  
-function clickPrioritario() {
-  
+
+  function clickPrioritario() {
     if (typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
         localStorage.clickcount = Number (localStorage.clickcount)+1;
@@ -18,12 +18,13 @@ function clickPrioritario() {
         localStorage.clickcount = 1;
       }
       document.getElementById("result").innerHTML = "P0" + localStorage.clickcount + "";
+      
+
     } 
+
+
   }
-
-  function cleanUp(){
+    function cleanUp(){
     localStorage.clickcount=0;
-
 }
 
-localStorage.setItem('clickPrioritario', clickComum);
