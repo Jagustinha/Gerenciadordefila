@@ -5,7 +5,7 @@ function clickComum() {
       } else {
         localStorage.clickcount = 1;
       }
-      document.getElementById("result").innerHTML = "C-0" + localStorage.clickcount + "";
+      document.getElementById("result").innerHTML = "C0" + localStorage.clickcount + "";
     }
   }
  
@@ -17,7 +17,7 @@ function clickPrioritario() {
       } else {
         localStorage.clickcount = 1;
       }
-      document.getElementById("result").innerHTML = "P-0" + localStorage.clickcount + "";
+      document.getElementById("result").innerHTML = "P0" + localStorage.clickcount + "";
     } 
   }
 

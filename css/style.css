@@ -16,9 +16,16 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-#reload {
+.reload {
     width: 25px;
+    
+    
+}
 
+
+.reload:hover {
+    transform: rotate(1000grad);
+    transition: 1s;
 }
 
 #foguete {
@@ -29,6 +36,13 @@
     width: 100px;
     max-width: 900px;
     max-height: 900px;
+}
+
+#foguete:hover {
+    transform: rotate(20grad);
+    transition: 2s;
+    
+
 }
 
 
@@ -107,7 +121,7 @@ h2 {
     font-size: 15px;
     cursor: pointer;
     border-radius: 12px;
-    transition: 1S;
+
 }
 
 .content-final-div{
@@ -133,16 +147,20 @@ h3{
     font-size: 15px;
     cursor: pointer;
     border-radius: 12px;
-    transition: 1S;
+
 }
 
 #botaoComum:hover{
-    background-color: #68368b;
+    background-color: #2b0149;
+    font-size: 16px;
+    transition: 1S;
 
 }
 
 #botaoPrioritario:hover{
-    background-color: #9050be;
+    background-color: #ea3bc4;
+    font-size: 16px;
+    transition: 1S;
 
 }
 
