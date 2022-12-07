@@ -18,4 +18,3 @@ const relogio = setInterval(function time (){
     
     
 })
-

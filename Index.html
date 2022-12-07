@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="./css/background.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="./imagens/619175.png">
 
     
     
@@ -21,12 +22,13 @@
     <div class="box">
 
         <fieldset >
-           
+
+            <input onclick="cleanUp()" type="image" id="reload" src="./imagens/reload.png" alt="">
             <img id="foguete" src="./imagens/619175.png" alt="">
             
             <legend><b>Bem vindo(a)!</b></legend>
             <h2 id="texto1">Retire sua senha aqui!</h2>
-            <br><br>
+            <br>
         <div class="relogio">
                 <div>
                     <span id="horas">00</span>
@@ -54,7 +56,8 @@
             <br><br>
             <button onclick="clickPrioritario()" type="button" id="botaoPrioritario">Prioritario</button>
             <br><br>
-            <button onclick="cleanUp()">Resetar</button>
+
+            
             
         </fieldset>
         

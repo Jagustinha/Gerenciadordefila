@@ -16,6 +16,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+#reload {
+    width: 25px;
+
+}
+
 #foguete {
     width: 48px;
     left: 89%;
