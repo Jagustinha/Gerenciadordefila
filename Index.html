@@ -27,7 +27,7 @@
             <legend><b>Bem vindo(a)!</b></legend>
             <h2 id="texto1">Retire sua senha aqui!</h2>
             <br><br>
-            <div class="relogio">
+        <div class="relogio">
                 <div>
                     <span id="horas">00</span>
                     <span class="tempo">Horas</span>
@@ -40,14 +40,21 @@
                     <span id="segundos">00</span>
                     <span class="tempo">Segundos</span>
                 </div>
-            </div>
-            <br><br><br><br>
+        </div>
+            <br>
+        <div class="content-final-div">
+            sua senha é:
+           <h1>
+               <div id="result">--</div>
+              
+           </h1>
+        </div>
             <h3 id="texto2">Escolha seu modo de senha e aguarde ser chamado.</h3>
-            
-            <button id="button1"><B>NORMAL</B></button>
-            <BR><BR>
-            <button id="button2"><B>PREFERENCIAL</B></button>
+            <button onclick="clickComum()" type="button" id="botaoComum">Comum</button>
             <br><br>
+            <button onclick="clickPrioritario()" type="button" id="botaoPrioritario">Prioritario</button>
+            <br><br>
+            <button onclick="cleanUp()">Resetar</button>
             
         </fieldset>
         
@@ -62,5 +69,6 @@
 
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
     <script src="./js/Script.js"></script>
+    <script src="./js/Senha.js"></script>
 </body>
 </html>
